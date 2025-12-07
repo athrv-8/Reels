@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffin Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <h2 class="logo">🍱 BabyPink Tiffin</h2>
+
+        <div class="hamburger" id="hamburger">
+            ☰
+        </div>
+    </nav>
+
+    <!-- SLIDE MENU -->
+    <div class="side-menu" id="sideMenu">
+        <div class="close-btn" id="closeMenu">✕</div>
+        <a href="#contact">Contact Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#desert">Special Desserts</a>
+        <a href="#other">Other Items</a>
+        <a href="#why">Why Us?</a>
+        <a href="#about">About Us</a>
+    </div>
+
+    <!-- ORDER PANEL -->
+    <div class="order-panel" id="orderPanel">
+        <h3>Your Orders</h3>
+        <ul id="orderList"></ul>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h1>Fresh • Homemade • Hygienic</h1>
+        <p>Your Comfort Tiffin, Made With Love 💛</p>
+
+        <div class="hero-buttons">
+            <a href="#contact" class="btn yellow">Contact Us</a>
+            <a href="#menu" class="btn pink">Explore Menu</a>
+        </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section class="menu-section" id="menu">
+        <h2>Our Menu</h2>
+
+        <div class="menu-grid">
+
+            <div class="menu-card" onclick="addOrder('Aloo Sabzi')">
+                <img src="https://i.ibb.co/Y43BHRSq/3e3a2f2da10014947e034589f1b68d8f.jpg">
+                <h3>Aloo Sabzi</h3>
+            </div>
+
+            <div class="menu-card" onclick="addOrder('Daal Makhni')">
+                <img src="https://i.ibb.co/ccRWWFR2/98ae52634a80a52054bf9aff67bfef34.jpg">
+                <h3>Daal Makhni</h3>
+            </div>
+
+            <div class="menu-card" onclick="addOrder('Salad')">
+                <img src="https://i.ibb.co/BKfwq59W/a0dc7a7cebea54d027ac25f673e74eac.jpg">
+                <h3>Salad</h3>
+            </div>
+
+            <div class="menu-card" onclick="addOrder('Chhole')">
+                <img src="https://i.ibb.co/7ddHc0pW/cebe87193757cfac2b319fc387408643.jpg">
+                <h3>Chhole</h3>
+            </div>
+
+            <div class="menu-card" onclick="addOrder('Roti')">
+                <img src="https://i.ibb.co/Fb0PyFd8/c57f8ec319b4c88b1534d1b8c9d82c4e.jpg">
+                <h3>Roti (4)</h3>
+            </div>
+
+            <div class="menu-card" onclick="addOrder('Aloo Paratha')">
+                <img src="https://i.ibb.co/Xxhz9k3G/66eecf9d2bdd6c8cdb00ffe2b994293a.jpg">
+                <h3>Aloo Ke Parathe</h3>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DESSERT -->
+    <section class="dessert" id="desert">
+        <h2>Special Desserts</h2>
+        <p>Coming soon… 🍰</p>
+    </section>
+
+    <!-- OUR MOTIVE -->
+    <section class="motive" id="why">
+        <h2>Our Motive</h2>
+        <p>
+            We believe homemade food carries love, care, and purity.  
+            Our goal is to serve fresh, hygienic, and tasty meals that feel just like home.  
+            Baby Pink Tiffin is all about comfort, purity, and your happiness 💗.
+        </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>📞 Phone: 9876543210</p>
+        <p>📍 Location: New Ashok Nagar, Delhi</p>
+        <a href="https://wa.me/919876543210" class="btn pink">Message on WhatsApp</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
